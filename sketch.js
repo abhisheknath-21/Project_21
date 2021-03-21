@@ -23,11 +23,11 @@ function draw() {
       var damage =(0.5  *   weight   *   speed *   speed/ thickness  *  thickness  * thickness);
 
           if(damage<4){
-            bullet.shapeColor=("green");
+            bullet.shapeColor="green";
           }
 
          if(damage>10){
-            bullet.shapeColor=("red");  
+            bullet.shapeColor="red";  
         }
     }
    drawSprites();
